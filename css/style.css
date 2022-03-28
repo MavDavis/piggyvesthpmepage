@@ -580,38 +580,49 @@ width: 70%;
 @media(max-width: 850px){
    .nav{
        flex-direction: column;
-      
+      width: 100%;
        background: var(--background-color);
+       margin: 0;
    }
    .left-first-container{
     padding-top: 8rem;
   
 }
+.nav-lists:hover .hidden{
+   top: 6rem; 
+ right: 1rem;
+ width: 200px;
+}
     .logo{
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 1rem;
+        left:1rem;
     }
     .hamburger{
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 1rem;
+        right: 1rem;
     }
     .sign{
         display:none;
-        
+        width: 100%;
+        padding-bottom: 5rem;
     }
-   
+   .sign button{
+       width: 100%;
+       margin: 1rem 0;
+   }
 .navLinks{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
-    
+    padding: .5rem ;
+    margin-top: 4rem;  
 }
  .nav-links{
-    line-height: 3rem;
+    line-height: 4rem;
     font-size: 1.5rem;
+    padding: 2rem 0;
 
 }
 .nav-links:hover{
@@ -697,6 +708,9 @@ padding: 5rem 0 5rem 25rem;
 .eight-container-1{
     margin-bottom: 5rem;
 }
+.row{
+   margin-right: 1rem;
+}
 }
 
 
@@ -709,6 +723,7 @@ padding: 5rem 0 5rem 25rem;
         text-align: center;
     }
     .row{
+        margin-right: 0;
         flex-direction: column;
     }
     .first-footer .icon p{
@@ -765,7 +780,17 @@ width: 230px;
 
 }
 .mobile-phone{
-   width: 250px; 
+   width: 250px;
+left: 1rem ;
+height: 500px; 
+
+}
+.sixth-container-right{
+    padding: 0;
+}
+.sixth-container-img{
+    position: absolute;
+    left: 1rem;
 }
 .grid{
     align-items: center;
@@ -774,10 +799,6 @@ width: 230px;
 }
 .grid-1, .dark-grid{
     width: 290px;
-}
-.mobile-phone{
-    height: 500px;
-    width: 250px;
 }
 .circle{
     height: 100px;
