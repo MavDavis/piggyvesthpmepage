@@ -743,7 +743,7 @@ padding: 5rem 0 5rem 25rem;
         padding: .8rem 1.2rem;
     }
    
-    /* add these together */
+  
     .paragraph, .left-second-container,  .right-second-container p, .grid-1 h3, .grid-1 p,  .fifth-container-2 h2, .fifth-container-2 p,  .sixth-container-left h2, .sixth-container-left p, .swiper, .sixth-container-right,  .seventh-container-right p{
         width: 100%;
     }}
@@ -781,7 +781,7 @@ width: 230px;
 }
 .mobile-phone{
    width: 250px;
-left: 1rem ;
+left: 1.2rem ;
 height: 500px; 
 
 }
