@@ -752,7 +752,7 @@ padding: 5rem 0 5rem 25rem;
 @media(max-width: 400px){
    
    .cover-img{
-    padding-right: 2rem;
+    padding-right: 3rem;
    }
 .imageCover{
     width: 250px
@@ -806,8 +806,3 @@ height: 500px;
    left: 0;
 
 }}
-@media(max-width: 300px){
-    /* .sixth-container{
-        margin-bottom: 55rem;
-    } */
-}
